@@ -18,6 +18,6 @@
 
 	Route::get('/appointments', 'ProfileController@appointment');
 
-	Route::get('auth/facebook', 'SocialAuthController@redirectToProvider');
+	Route::get('auth/{provider}', 'SocialAuthController@redirectToProvider');
 
-	Route::get('callback/facebook', 'SocialAuthController@handleProviderCallback');
+	Route::get('callback/{provider}', 'SocialAuthController@handleProviderCallback');

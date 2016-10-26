@@ -109,15 +109,19 @@
 							<hr >
 							<br >
 							<p>
-								<a href="#" class="btn btn-block btn-raised btn-info"><i class="fa fa-facebook-official pull-left"></i>Login with Facebook</a>
+								<a href="{{ url('auth/facebook') }}" class="btn btn-block btn-raised btn-info"><i class="fa fa-facebook-official pull-left"></i>Login with Facebook</a>
 							</p>
 
 							<p>
-								<a href="#" class="btn btn-block btn-raised btn-danger"><i class="fa fa-google-plus-square pull-left"></i>Login with Google+</a>
+										<a href="{{ url('auth/twitter') }}" class="btn btn-block btn-raised btn-info"><i class="fa fa-twitter pull-left"></i>Login with Twitter</a>
+									</p>
+
+							<p>
+								<a href="{{ url('auth/google') }}" class="btn btn-block btn-raised btn-danger"><i class="fa fa-google-plus-square pull-left"></i>Login with Google+</a>
 							</p>
 
 							<p>
-								<a href="#" class="btn btn-block btn-raised btn-info"><i class="fa fa-linkedin-square pull-left"></i>Login with Linkedin</a>
+								<a href="{{ url('auth/linkedin') }}" class="btn btn-block btn-raised btn-info"><i class="fa fa-linkedin-square pull-left"></i>Login with Linkedin</a>
 							</p>
 						</div><!--end .col -->
 					</div><!--end .row -->

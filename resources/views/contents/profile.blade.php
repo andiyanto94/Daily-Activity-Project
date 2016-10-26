@@ -13,13 +13,13 @@
 				<!-- BEGIN PROFILE HEADER -->
 				<section class="full-bleed">
 					<div class="section-body style-default-dark force-padding text-shadow">
-						<div class="img-backdrop" style="background-image: url('{{ Auth::user()->banner }}')"></div>
+						<div class="img-backdrop" style="background-image: url('{{ Auth::user()->banner }}'); background-size: auto;"></div>
 						<div class="overlay overlay-shade-top stick-top-left height-3"></div>
 						<div class="row">
 							<div class="col-md-2 col-sm-2 col-xs-3">
-								<img class="img-circle text-center border-white border-xl img-responsive auto-width" src="{{ Auth::user()->avatar }}" alt="{{ Auth::user()->name }}" />
+								<img class="img-circle border-white border-xl img-responsive auto-width" src="{{ url(Auth::user()->avatar) }}" alt="{{ Auth::user()->name }}" />
 								<h3 class="text-center">{{ Auth::user()->name }}<br/>
-									<small class="text-center">Consultant at CodeCovers</small></h3>
+									<small class="text-center">{{ Auth::user()->email }}</small></h3>
 							</div><!--end .col -->
 							<div class="col-md-10 col-xs-9 col-sm-10">
 								<div class="width-3 text-center pull-right">

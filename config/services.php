@@ -41,4 +41,22 @@ return [
 	    'redirect' => 'http://localhost/project/callback/facebook',
     ],
 
+    'twitter' => [
+	    'client_id' => 'pmbUdNLvEPM0NZDoTXrUNkcZo', // configure with your app id
+	    'client_secret' => 'yNWTo4zTAjayEbsWzlKmYFvRmf9y6CahzY4xGgrMhDcK9F52mO', // your app secret
+	    'redirect' => 'http://localhost/project/callback/twitter', // leave blank for now
+    ],
+
+    'google' => [
+	    'client_id' => '962659084778-dl60qe32ppmtko8hpnba07qc5k9ncqfn.apps.googleusercontent.com', // configure with your app id
+	    'client_secret' => 'lY-DTzkoF6ZjxO9vhKMKnouH', // your app secret
+	    'redirect' => 'http://localhost/project/callback/google', // leave blank for now
+    ],
+
+    'linkedin' => [
+	    'client_id' => '75khxbxxdwuzkb', // configure with your app id
+	    'client_secret' => 'hB2NeVqCrDeObo6O', // your app secret
+	    'redirect' => 'http://localhost/project/callback/linkedin', // leave blank for now
+    ],
+
 ];
